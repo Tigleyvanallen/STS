@@ -1,0 +1,392 @@
+#body {
+    background: #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+    z-index: 4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -3.5%;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links {
+    margin-top: -17%;
+    
+}
+
+nav ul li a {
+    line-height: 15%;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.genshin_impact img {
+    width: 15%;
+    position: absolute;
+    margin-left: 5%;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links {
+    margin-top: -7%;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+
+ section {
+    width: 100%;
+    height: 100vh;
+    background: url(https://genshin.hoyoverse.com/_nuxt/img/poster.47f71d4.jpg);
+} 
+
+.genshinlogo {
+    position: absolute;
+    top: 17%;
+    left: -3%;
+    width: 22%;
+}
+
+
+
+.paragraph {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(114,71,21,0.68),0 0 10px rgba(114,71,21,0.68);
+    margin-left: 28.5%;
+    margin-top:30%;
+}
+
+.ps5ps4 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 42%;
+    width: 8%;
+}
+
+.scangenshin {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 42%;
+    width: 6%;
+}
+
+.appstoregenshin {
+    position: absolute;
+    margin-left: 25%;
+    width: 8%;
+    margin-top: 45.5%;
+}
+
+.pcgenshin {
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 42%;
+    width: 8%;
+}
+
+.playstoregenshin {
+    position: absolute;
+    margin-left: 34%;
+    width: 8%;
+    margin-top: 45.5%;
+}
+
+.xboxgenshin {
+    position: absolute;
+    width: 8%;
+    margin-left: 43%;
+    margin-top: 42%;
+}
+
+.epicgamegenshin {
+    position: absolute;
+    margin-left: 43%;
+    width: 8%;
+    margin-top: 45.5%; 
+}
+
+.genshinteen {
+    position: absolute;
+    width: 9.5%;
+    margin-left: 52%;
+    margin-top: 42%;
+}
+
+.downloadlayout {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10.2%;
+    top: -13%;
+    width: 100%;
+    height: 100%;
+}
+
+.whitebackground {
+    position: absolute;
+    margin-left: -174px;
+    margin-top: -215.2%;
+}
+
+.videobutton {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 28%;
+}
+
+
+/* Bottom Context */
+
+.bottom {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.cityname {
+    position: absolute;
+    left: 44%;
+    top: 110%;
+    font-size: 28px;
+    color: white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: inline-block;
+    z-index: 3;
+}
+
+.Liyuename {
+    margin-left: 20%;
+    margin-top: 120%;
+}
+
+.Inazumaname {
+    margin-left: 5%;
+    margin-top: 110%; 
+}
+
+.Sumeruname {
+    margin-left: 5%;
+    margin-top: 115%; 
+}
+
+.Fontainename {
+    margin-left: 5%;
+    margin-top: 110%; 
+}
+
+.Natlanname {
+    margin-left: 19%;
+    margin-top: 125%; 
+}
+
+.Nodkrainame {
+    margin-left: 15%;
+    margin-top: 120%; 
+}
+
+.city {
+    width: 100%;
+    margin-top: 0.2%;
+    height: 166vh;
+}
+
+.modstandtcity:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+   
+}
+
+.liyuecity:hover{
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+.inazumacity:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+.sumerucity:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+.fontainecity:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+.natlancity:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+.natlancity:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+.nodkrainame:hover {
+   scale: 1.1;
+   transition: all 1s ease-in-out;
+   overflow: hidden;
+}
+
+
+.bottom {
+    background-color: black;
+    height: 88vh;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 41.3%;
+}
+
+.icons {
+    position: relative;
+    width: 1280px;
+    height: 52px;
+    letter-spacing: 100px;
+    margin-left: -640px;
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+.bottom_text {
+    color: white;
+    margin-top: 5%;
+    display: block;
+    background-color: #111;
+    margin-top: 15%;
+}
+
+.bottom_text p {
+    margin-left: 2%;
+}
+
+.bottom_text h3 {
+    margin-left: 2%;
+}
+
+.bottom_text {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    padding: 40px 0;
+    border-top: 1px solid #323232;
+    margin-top: 47.8%;
+}
+
+.lowest {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 66.5%;
+}
+
+.lowest_text {
+    color: #919191;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 63%;
+}
+
+.hoyoverse_icon {
+    position: absolute;
+    margin-left: 29.5%;
+    margin-top: 76%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
