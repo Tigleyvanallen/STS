@@ -90,7 +90,7 @@ nav ul{
 }
 
 .links {
-    margin-top: -8%;
+    margin-top: -7%;
 }
 
 nav ul li a {
@@ -112,39 +112,17 @@ nav ul li a:hover {
  section {
     width: 100%;
     height: 100vh;
-    background: url(images/mainlogo.jpg);
+    background: url(https://genshin.hoyoverse.com/_nuxt/img/poster.47f71d4.jpg);
 } 
 
 .genshinlogo {
     position: absolute;
-    top: -23%;
+    top: 17%;
     left: -3%;
-    width: 21%;
-    margin-left: 5%;
+    width: 22%;
 }
 
-.paragaraph2 {
-    position: absolute;
-    margin: 0;
-    width: 69%;
-    padding: 0;
-    margin-top: 37%;
-    color: white;
-    text-align: center;
-    margin-left: 17%;
-    font-size: large;
-    font-family: fangsong;
-}
 
-.textparagraph {
-        margin: 0;
-    width: 100%;
-    padding: 0;
-    margin-left: 35%;
-    margin-top: 11%;
-    font-family: emoji;
-    font-weight: bold;
-}
 
 .paragraph {
     position: absolute;
@@ -412,237 +390,3 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
 }
-
-
-body, 
-figure {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
-
-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    padding: 10px 90px;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid #fff;
-    z-index: 4;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    padding: 10px 90px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid #fff;
-}
-
-nav .logo {
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    margin-top: -3.5%;
-}
-
-nav ul{
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.links {
-    margin-top: -17%;
-    
-}
-
-nav ul li a {
-    line-height: 15%;
-    color: #fff;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-
-}
-
-nav ul li a:hover {
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 6px;
-}
-
-.genshin_impact img {
-    width: 15%;
-    position: absolute;
-    margin-left: 5%;
-}
-
-nav ul{
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.links {
-    margin-top: -8%;
-}
-
-nav ul li a {
-    line-height: 80px;
-    color: #fff;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover {
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 6px;
-}
-
-
- section {
-    width: 100%;
-    height: 100vh;
-    background: url(images/mainlogo.jpg);
-} 
-
-
-a.goback {
-    position: absolute;
-    width: 100%;
-    bottom: -22%;
-}
-
-.banner img.background_img {
-    max-width: 1980px;
-    width: 100%;
-    position: relative;
-}
-
-.banner img.jeanname {
-    width: 100%;
-    position: absolute;
-    bottom: 4px;
-    right: 9%;
-
-}
-
-.banner img.jean {
-    width: 100%;
-    position: absolute;
-    bottom: 4px;
-    right: 9%;
-}
-
-p.mesoparagraph {
-    position: absolute;
-    color: white;
-    margin: 0;
-    padding: 0;
-    left: 0%;
-    text-align: center;
-    margin-top: -24%;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 57%;
-    font-family: emoji;
-    line-height: 1.5;
-    margin-left: 22%;
-    margin-top: -32%;   
-}
-
-h2.bigmeso {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 24%;
-    left: 29%;
-    font-size: 80px;
-    color: white;
-    font-family: emoji;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-p.description {
-    position: absolute;
-    color: white;
-    margin: 0;
-    padding: 0;
-    left: 0%;
-    text-align: center;
-    margin-top: -24%;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 57%;
-    font-family: emoji;
-    line-height: 1.5;
-    margin-left: 22%;
-    margin-top: -32%;
-}
-
-.banner {position: relative;}
-
-
-.banner .characters {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 50px;
-    bottom: 200px;
-}
-
-footer {
-    background: black;
-    text-align: center;
-    color: white;
-}
-
-footer section.subscribe {
-    background: gray;
-}
-
-footer section.playstation {
-    color: gray;
-}
-
-footer figure.hoyoverse img:first-child {
-    width: 300px;
-}
-
-footer figure .icon img:last-child {
-    width: 200px;
-}
-
-footer section.apps {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-}
-
